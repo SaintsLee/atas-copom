@@ -1,0 +1,36 @@
+103027f3aaf64945a21098cc079deb5a
+
+'''
+# Sua chave de API da NewsAPI
+news_api_key = "103027f3aaf64945a21098cc079deb5a"
+
+# Endpoint da API
+url_news = "https://newsapi.org/v2/everything"
+
+# Parâmetros da busca
+params = {
+    "q": "Dólar&Real&Inflação",  # Palavra-chave para buscar
+    "language": "pt",  # Idioma das notícias (exemplo: português)
+    "from = 2024-11-10"
+    "sortBy": "popularity",  # Ordenar por data de publicação
+    "pageSize": 100,  # Quantidade de notícias retornadas por requisição
+    "apiKey": news_api_key  # Sua chave de API
+}
+
+# Fazendo a requisição
+response_news = requests.get(url_news, params=params)
+
+noticias = response_news.json()
+
+# Verifica o status e processa a resposta
+compilado_noticias = []
+if response_news.status_code == 200:
+    noticias = response_news.json()
+    for i, artigo in enumerate(noticias.get("articles", []), start=1):
+        print(f"Notícia {i}:")
+        print(f"Título: {artigo['title']}")
+        print("-" * 40)
+        compilado_noticias.append(artigo['title'])
+else:
+    print(f"Erro na requisição: {response_news.status_code}")
+'''
