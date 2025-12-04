@@ -16,7 +16,7 @@ listas_nro_reunioes = np.arange(270, (266 -5 -1), -1)
 #---------------------------------------------------------------------------------------------------
 
 # URL do PDF
-url_fed = 'https://www.federalreserve.gov/monetarypolicy/files/monetary20250618a1.pdf'\
+url_fed = 'https://www.federalreserve.gov/monetarypolicy/files/monetary20251029a1.pdf'\
           #"https://www.federalreserve.gov/monetarypolicy/files/monetary20250129a1.pdf"
 
 # Baixar o PDF
@@ -66,22 +66,22 @@ with st.sidebar:
 
     atas_formatadas_markdown = converter.handle(atas_formatadas)
     texto_copom = '''
-   Copom eleva a taxa Selic para 15,00% a.a. - 271ª reunião - junho 2025
-Data de publicação: 18/06/2025
+    Copom mantém a taxa Selic em 15,00% a.a. - 273ª reunião - setembro 2025
+Data de publicação: 17/09/2025
 
-​O ambiente externo mantém-se adverso e particularmente incerto em função da conjuntura e da política econômica nos Estados Unidos, principalmente acerca de suas políticas comercial e fiscal e de seus respectivos efeitos. Além disso, o comportamento e a volatilidade de diferentes classes de ativos também têm sido afetados, com reflexos nas condições financeiras globais. Tal cenário segue exigindo cautela por parte de países emergentes em ambiente de acirramento da tensão geopolítica.
+​O ambiente externo se mantém incerto em função da conjuntura e da política econômica nos Estados Unidos. Consequentemente, o comportamento e a volatilidade de diferentes classes de ativos têm sido afetados, com reflexos nas condições financeiras globais. Tal cenário exige particular cautela por parte de países emergentes em ambiente marcado por tensão geopolítica.
 
-Em relação ao cenário doméstico, o conjunto dos indicadores de atividade econômica e do mercado de trabalho ainda tem apresentado algum dinamismo, mas observa-se certa moderação no crescimento. Nas divulgações mais recentes, a inflação cheia e as medidas subjacentes mantiveram-se acima da meta para a inflação.
+Em relação ao cenário doméstico, o conjunto dos indicadores de atividade econômica segue apresentando, conforme esperado, certa moderação no crescimento, mas o mercado de trabalho ainda mostra dinamismo. Nas divulgações mais recentes, a inflação cheia e as medidas subjacentes mantiveram-se acima da meta para a inflação.
 
-As expectativas de inflação para 2025 e 2026 apuradas pela pesquisa Focus permanecem em valores acima da meta, situando-se em 5,2% e 4,5%, respectivamente. A projeção de inflação do Copom para o ano de 2026, atual horizonte relevante de política monetária, situa-se em 3,6% no cenário de referência (Tabela 1).
+As expectativas de inflação para 2025 e 2026 apuradas pela pesquisa Focus permanecem em valores acima da meta, situando-se em 4,8% e 4,3%, respectivamente. A projeção de inflação do Copom para o primeiro trimestre de 2027, atual horizonte relevante de política monetária, situa-se em 3,4% no cenário de referência (Tabela 1).
 
 Os riscos para a inflação, tanto de alta quanto de baixa, seguem mais elevados do que o usual. Entre os riscos de alta para o cenário inflacionário e as expectativas de inflação, destacam-se (i) uma desancoragem das expectativas de inflação por período mais prolongado; (ii) uma maior resiliência na inflação de serviços do que a projetada em função de um hiato do produto mais positivo; e (iii) uma conjunção de políticas econômicas externa e interna que tenham impacto inflacionário maior que o esperado, por exemplo, por meio de uma taxa de câmbio persistentemente mais depreciada. Entre os riscos de baixa, ressaltam-se (i) uma eventual desaceleração da atividade econômica doméstica mais acentuada do que a projetada, tendo impactos sobre o cenário de inflação; (ii) uma desaceleração global mais pronunciada decorrente do choque de comércio e de um cenário de maior incerteza; e (iii) uma redução nos preços das commodities com efeitos desinflacionários.
 
-O Comitê segue acompanhando com atenção como os desenvolvimentos da política fiscal impactam a política monetária e os ativos financeiros. O cenário segue sendo marcado por expectativas desancoradas, projeções de inflação elevadas, resiliência na atividade econômica e pressões no mercado de trabalho. Para assegurar a convergência da inflação à meta em ambiente de expectativas desancoradas, exige-se uma política monetária em patamar significativamente contracionista por período bastante prolongado.
+O Comitê segue acompanhando os anúncios referentes à imposição de tarifas comerciais pelos EUA ao Brasil, e como os desenvolvimentos da política fiscal doméstica impactam a política monetária e os ativos financeiros, reforçando a postura de cautela em cenário de maior incerteza. O cenário segue sendo marcado por expectativas desancoradas, projeções de inflação elevadas, resiliência na atividade econômica e pressões no mercado de trabalho. Para assegurar a convergência da inflação à meta em ambiente de expectativas desancoradas, exige-se uma política monetária em patamar significativamente contracionista por período bastante prolongado.
 
-O Copom decidiu elevar a taxa básica de juros em 0,25 ponto percentual, para 15,00% a.a., e entende que essa decisão é compatível com a estratégia de convergência da inflação para o redor da meta ao longo do horizonte relevante. Sem prejuízo de seu objetivo fundamental de assegurar a estabilidade de preços, essa decisão também implica suavização das flutuações do nível de atividade econômica e fomento do pleno emprego.
+O Copom decidiu manter a taxa básica de juros em 15,00% a.a., e entende que essa decisão é compatível com a estratégia de convergência da inflação para o redor da meta ao longo do horizonte relevante. Sem prejuízo de seu objetivo fundamental de assegurar a estabilidade de preços, essa decisão também implica suavização das flutuações do nível de atividade econômica e fomento do pleno emprego.
 
-Em se confirmando o cenário esperado, o Comitê antecipa uma interrupção no ciclo de alta de juros para examinar os impactos acumulados do ajuste já realizado, ainda por serem observados, e então avaliar se o nível corrente da taxa de juros, considerando a sua manutenção por período bastante prolongado, é suficiente para assegurar a convergência da inflação à meta. O Comitê enfatiza que seguirá vigilante, que os passos futuros da política monetária poderão ser ajustados e que não hesitará em prosseguir no ciclo de ajuste caso julgue apropriado.
+O cenário atual, marcado por elevada incerteza, exige cautela na condução da política monetária. O Comitê seguirá vigilante, avaliando se a manutenção do nível corrente da taxa de juros por período bastante prolongado é suficiente para assegurar a convergência da inflação à meta. O Comitê enfatiza que os passos futuros da política monetária poderão ser ajustados e que não hesitará em retomar o ciclo de ajuste caso julgue apropriado.
 
 Votaram por essa decisão os seguintes membros do Comitê: Gabriel Muricca Galípolo (presidente), Ailton de Aquino Santos, Diogo Abry Guillen, Gilneu Francisco Astolfi Vivan, Izabela Moreira Correa, Nilton José Schneider David, Paulo Picchetti, Renato Dias de Brito Gomes e Rodrigo Alves Teixeira.
 

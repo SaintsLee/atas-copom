@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Leads em redistribuição</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #f4f4f7;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      background-color: #ffffff;
+      border-radius: 0px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    /* Cabeçalho com degradê em SVG base64 (compatível com Gmail/Outlook) */
+    .header {
+      background-color: #1b164a; 
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 24px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 22px;
+      font-weight: 700;
+    }
+
+    .header p {
+      margin: 8px 0 0 0;
+      font-size: 14px;
+      color: #dcdcff;
+    }
+
+    .content {
+      padding: 24px 32px;
+      color: #333333;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .content strong {
+      color: #392b84;
+    }
+
+    .table-container {
+      margin-top: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th {
+      background-color: #392b84;
+      color: white;
+      text-align: left;
+      padding: 10px;
+    }
+
+    td {
+      padding: 10px;
+      border-top: 1px solid #eee;
+    }
+
+    .footer {
+      background-color: #f7f7f7;
+      color: #777;
+      font-size: 12px;
+      text-align: center;
+      padding: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Cabeçalho visual -->
+    <div class="header">
+      <h1>{{ $('AI Agent').item.json.output['Emoji Selic'] }} {{ $('AI Agent').item.json.output['Assunto do Email'] }}</h1>
+      <p>{{ $('AI Agent').item.json.output['Breve chamada para a SELIC'] }}</p>
+    </div>
+
+    <!-- Corpo do e-mail -->
+    <div class="content">
+      {{ $json.data }}
+    </div>
+
+    <!-- Rodapé -->
+    <div class="footer">
+      Este é um e-mail automático. Por favor, não responda a esta mensagem.
+    </div>
+  </div>
+
+</body>
+</html>
